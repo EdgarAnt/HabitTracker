@@ -6,10 +6,12 @@
 // ===================================================
 
 // Your habit name
-const HABIT_NAME = "LeetCode";
+const HABIT_NAME = "Read";
 
-// When you started tracking (change only once!)
-const START_DATE = new Date(2025, 5, 18); // June 16, 2025
+// When you started tracking (NOW WITH NATURAL MONTHS 1-12!)
+const START_YEAR = 2025;
+const START_MONTH = 7; // July = 7 (natural numbers!)
+const START_DAY = 6;
 
 // Total days for your challenge
 const TOTAL_DAYS = 100;
@@ -28,6 +30,9 @@ const COLOR_FUTURE = new Color("#ffffff", 0.3); // Light grey - future days
 const fm = FileManager.local();
 // Use script name to create unique file for each widget
 const progressFile = fm.joinPath(fm.documentsDirectory(), Script.name() + "_progress.json");
+
+// Convert natural month (1-12) to JavaScript month (0-11)
+const START_DATE = new Date(START_YEAR, START_MONTH - 1, START_DAY);
 
 // Load progress from file
 function loadProgress() {
