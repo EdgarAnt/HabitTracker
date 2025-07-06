@@ -66,4 +66,6 @@ const COLOR_FUTURE = new Color("#ffffff", 0.3); // Light gray
 - Supports up to **100-day challenges** by default
 
 
-![Image](https://github.com/user-attachments/assets/c0e11a06-9868-4ed6-ada5-6268714e9e9a)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c0e11a06-9868-4ed6-ada5-6268714e9e9a" alt="Image">
+</div>
