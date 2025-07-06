@@ -1,4 +1,4 @@
-# LeetCode Habit Tracker Widget
+# Habit Tracker Widget
 A minimalist iOS widget built with Scriptable to track your daily LeetCode practice streak.
 
 ---
