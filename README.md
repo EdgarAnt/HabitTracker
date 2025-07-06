@@ -66,4 +66,4 @@ const COLOR_FUTURE = new Color("#ffffff", 0.3); // Light gray
 - Supports up to **100-day challenges** by default
 
 
-![HabitTracker gif](https://github.com/user-attachments/assets/c5607a1b-7877-483b-bd9e-2ed757fcd0d7)
+![Image](https://github.com/user-attachments/assets/c0e11a06-9868-4ed6-ada5-6268714e9e9a)
